@@ -27,7 +27,7 @@ public class FullscreenTest {
 //      Открыть Chrome в режиме киоска
         options.addArguments("--start-fullscreen");
         driver = new ChromeDriver(options);
-        logger.info("Открытие браузера в режиме киоска");
+        logger.info("Открытие браузера в режиме fullscreen");
     }
 
     @AfterEach
