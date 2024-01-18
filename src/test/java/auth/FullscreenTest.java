@@ -48,6 +48,6 @@ public class FullscreenTest {
         elPicture.click();
 //      Проверяем открытие картинки в модальном окне
         WebElement elModalPicture = driver.findElement(By.cssSelector(".pp_content"));
-        Assertions.assertTrue(elModalPicture.isDisplayed(),"Нет изображения в модальном окне");
+        Assertions.assertTrue(elModalPicture.isDisplayed(),"No image in modal window");
     }
 }
