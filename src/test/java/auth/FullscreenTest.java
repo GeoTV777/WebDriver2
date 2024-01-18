@@ -44,10 +44,10 @@ public class FullscreenTest {
 //      Переходим на сайт:
         driver.get("https://p.w3layouts.com/demos_new/template_demo/03-10-2020/photoflash-liberty-demo_Free/685659620/web/index.html?_ga=2.181802926.889871791.1632394818-2083132868.1632394818");
 //      Кликаем картинку
-        WebElement elPicture = driver.findElement(By.xpath("//h3[text()='This is a title']"));
+        WebElement elPicture = driver.findElement(By.xpath("//li[contains(@data-id,'id-1')]//a"));
         elPicture.click();
 //      Проверяем открытие картинки в модальном окне
-        WebElement elModalPicture = driver.findElement(By.xpath("//img[contains(@src,'p7.jpg')]"));
+        WebElement elModalPicture = driver.findElement(By.cssSelector(".pp_content"));
         Assertions.assertTrue(elModalPicture.isDisplayed(),"Нет изображения в модальном окне");
     }
 }
