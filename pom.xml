@@ -67,6 +67,9 @@
               <configuration>
                   <systemProperties>
                       <browser.name>chrome</browser.name>
+                      <base.url1>https://p.w3layouts.com/demos_new/template_demo/03-10-2020/photoflash-liberty-demo_Free/685659620/web/index.html?_ga=2.181802926.889871791.1632394818-2083132868.1632394818</base.url1>
+                      <base.url2>https://duckduckgo.com</base.url2>
+                      <base.url3>https://otus.ru</base.url3>
                   </systemProperties>
               </configuration>
           </plugin>
